@@ -50,7 +50,7 @@
       <recent name="C:\Users\cagri.coskun\IdeaProjects\Patika" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Temel">
     <configuration name="Kdv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kdv" />
       <module name="Patika" />
@@ -58,8 +58,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Temel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Temel" />
+      <module name="Patika" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Temel" />
         <item itemvalue="Application.Kdv" />
       </list>
     </recent_temporary>
