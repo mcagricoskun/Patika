@@ -11,8 +11,8 @@ public class Taksimetre {
         System.out.println("Kat edilen mesafe = " + mesafe);
         ucret = acilis + mesafe*kmBasina;
 
-        Double sonuc = (ucret > 20)? ucret : minTutar;
+        Double result = (ucret > 20)? ucret : minTutar;
 
-        System.out.println("Ödemmeniz gereken tutar: " + sonuc);
+        System.out.println("Ödemmeniz gereken tutar: " + result);
     }
 }
