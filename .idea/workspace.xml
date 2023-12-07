@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="hipotenus">
-      <change afterPath="$PROJECT_DIR$/src/Taksimetre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Daire.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <recent name="C:\Users\cagri.coskun\IdeaProjects\Patika\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Taksimetre">
+  <component name="RunManager">
     <configuration name="Kdv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kdv" />
       <module name="Patika" />
@@ -150,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701937225935</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hipotenus">
+      <option name="closed" value="true" />
+      <created>1701939912026</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701939912026</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
