@@ -4,13 +4,12 @@ public class Hipotenus {
     public static void main(String[] args) {
         double x, y, z;
 
-        Scanner veri = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("1. kenarı girin: ");
-        x = veri.nextFloat();
+        x = input.nextDouble();
 
-        Scanner veri2 = new Scanner(System.in);
         System.out.println("2. kenarı girin: ");
-        y = veri.nextFloat();
+        y = input.nextDouble();
 
         z = Math.sqrt(x*x+y*y);
 
