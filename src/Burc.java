@@ -13,7 +13,6 @@ public class Burc {
         day = input.nextInt();
 
 
-
         if (month>=1 && month<=12 && month==1){
             if (day >= 1 && day <= 31){
                 if (day>=22){
