@@ -26,7 +26,6 @@ public class PasswordControl {
                     System.out.println("Şifre oluşturuldu");
                     System.out.println("Yeni şifreniz: " + password);
                 }
-
             }
             else {
                 System.out.println("Şifre değitirmek istemediniz!");
