@@ -1,3 +1,5 @@
+//Negatif sayı girilene kadar girilen tek sayıların toplamı
+
 import java.util.Scanner;
 
 public class DonguToplama {
