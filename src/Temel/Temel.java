@@ -1,3 +1,5 @@
+package Temel;
+
 import java.util.Scanner;
 
 

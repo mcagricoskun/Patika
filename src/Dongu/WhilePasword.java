@@ -1,3 +1,5 @@
+package Dongu;
+
 import java.util.Scanner;
 public class WhilePasword {
     public static void main(String[] args) {

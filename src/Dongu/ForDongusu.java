@@ -1,3 +1,5 @@
+package Dongu;
+
 public class ForDongusu {
     public static void main(String[] args) {
         // for (durum 1; durum 2; durum 3) {
