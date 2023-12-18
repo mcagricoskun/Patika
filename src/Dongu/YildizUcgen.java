@@ -2,7 +2,7 @@ package Dongu;
 
 import java.util.Scanner;
 
-public class YıldızlarSekil {
+public class YildizUcgen {
 
     /*
       bb*bb
