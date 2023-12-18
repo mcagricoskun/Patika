@@ -1,3 +1,5 @@
+package Dongu;
+
 public class DonguArmstronV2 {
     public static void main(String[] args) {
 
