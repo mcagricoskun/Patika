@@ -1,4 +1,4 @@
-//Negatif sayı girilene kadar girilen tek sayıların toplamı
+package Dongu;//Negatif sayı girilene kadar girilen tek sayıların toplamı
 
 import java.util.Scanner;
 

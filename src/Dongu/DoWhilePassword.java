@@ -1,3 +1,5 @@
+package Dongu;
+
 import java.util.Scanner;
 public class DoWhilePassword {
     public static void main(String[] args) {

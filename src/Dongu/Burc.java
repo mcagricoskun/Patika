@@ -1,3 +1,5 @@
+package Dongu;
+
 import java.awt.desktop.AboutEvent;
 import java.util.Scanner;
 
