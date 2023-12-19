@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="yıldız">
-      <change afterPath="$PROJECT_DIR$/src/Method/Temel.java" afterDir="false" />
+    <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="fonksiyonlar">
+      <change afterPath="$PROJECT_DIR$/src/Method/Palindrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Method/Recursive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Method/Temel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Method/Temel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,21 +59,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/cagri.coskun/IdeaProjects/Patika&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/cagri.coskun/IdeaProjects/Patika",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cagri.coskun\IdeaProjects\Patika" />
@@ -310,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702906873336</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="fonksiyonlar">
+      <option name="closed" value="true" />
+      <created>1702910393086</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1702910393086</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -333,7 +343,8 @@
     <MESSAGE value="girilen negatif sayıların toplamı" />
     <MESSAGE value="Armstrong" />
     <MESSAGE value="yıldız" />
-    <option name="LAST_COMMIT_MESSAGE" value="yıldız" />
+    <MESSAGE value="fonksiyonlar" />
+    <option name="LAST_COMMIT_MESSAGE" value="fonksiyonlar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

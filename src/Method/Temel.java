@@ -10,22 +10,30 @@ public class Temel {
         metotAdi : Metodumuzun benzersiz ismidir ve bu isimlendirme ile metotlar çağrılır.
         kod bloğu : Bu kısım metot çağrıldığı zaman, program tarafından çalışacak kod bloğudur.
         parametre1/parametre2 : Bu kısım metot içerisine aktarma istediğimiz verilerdir ve parametre olarak adlandırılır.
+
+        METODLARDA AŞIRI YÜKLEME OVERLODAING
+        void func() { ... }
+        void func(int a) { ... }
+        float func(double a) { ... }
+        float func(int a, float b) { ... }
     */
-    static void hello(){
+    static void hello() {
         System.out.println("Merhaba");
     }
-    static int toplama(int a, int b){
-        int result = a+b;
+
+    static int toplama(int a, int b) {
+        int result = a + b;
         return result;
         //return de ki sonuç dönsün
     }
 
     public static void main(String[] args) {
 
-        int x = toplama(3,5);
+        int x = toplama(3, 5);
         System.out.println(x);
         hello();
-        //System.out.println(hello); //çalışmaz çünkü void tanımladık çıktı üretmiyor ama metod üstteki gibi çağrılabilir
+        // System.out.println(hello);
+        // Sout çalışmaz çünkü void tanımladık çıktı üretmiyor ama metod üstteki gibi çağrılabilir
 
 
     }
