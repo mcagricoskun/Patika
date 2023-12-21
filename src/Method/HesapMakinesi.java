@@ -43,9 +43,7 @@ public class HesapMakinesi {
         do {
             System.out.println("Bir işlem seçiniz:\n" + menu);
             sec = input.nextInt();
-            if (sec == 0) {
-                break;
-            } else {
+            if (sec <= 4 && sec >= 1) {
                 System.out.println("İlk sayı: ");
                 int a = input.nextInt();
                 System.out.println("İkinci sayı: ");
@@ -64,10 +62,12 @@ public class HesapMakinesi {
                         divide(a, b);
                         break;
                 }
-            }
+
+            } else break;
+
         }
         while (sec != 0);
-
-
     }
+
 }
+
