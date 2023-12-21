@@ -7,14 +7,12 @@ public class RecursiveAsalSayi {
         if (a < 2) {
             return false;
         }
-
         if (a == i) {
             return true;
         }
         if (a % i == 0) {
             return false;
         }
-
         return isASal(a, i + 1);
     }
 
