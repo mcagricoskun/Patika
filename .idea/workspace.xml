@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="Hesap Makinesi">
+      <change afterPath="$PROJECT_DIR$/src/Method/RecursiveAsalSayi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -349,7 +350,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703159275812</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Hesap Makinesi">
+      <option name="closed" value="true" />
+      <created>1703160307290</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1703160307290</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -390,6 +399,11 @@
           <url>file://$PROJECT_DIR$/src/Method/HesapMakinesi.java</url>
           <line>43</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Method/RecursiveAsalSayi.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
