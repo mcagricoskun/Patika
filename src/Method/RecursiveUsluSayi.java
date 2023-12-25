@@ -3,7 +3,7 @@ package Method;
 import java.util.Scanner;
 
 public class RecursiveUsluSayi {
-    static int uslusayi(int taban, int us) {
+     static int uslusayi(int taban, int us) {
         if (us == 0) {
             return 1;
         }
@@ -18,8 +18,8 @@ public class RecursiveUsluSayi {
         int taban = input.nextInt();
         System.out.println("Üs değeri: ");
         int us = input.nextInt();
-        int result = uslusayi(taban, us);
-        System.out.println(taban + " üzeri " + us + " eşittir= " + result);
+        //int result = uslusayi(taban, us);
+        System.out.println(taban + " üzeri " + us + " eşittir= " + uslusayi(taban, us));
     }
 }
 

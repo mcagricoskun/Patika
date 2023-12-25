@@ -50,7 +50,7 @@ public class HesapMakinesi {
                 int b = input.nextInt();
                 switch (sec) {
                     case 1:
-                        plus(a, b);
+                        HesapMakinesi.plus(a, b);
                         break;
                     case 2:
                         minus(a, b);
