@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="Garip">
-      <change afterPath="$PROJECT_DIR$/src/Method/HackerRank2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOgrenciBilgiSistemi/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOgrenciBilgiSistemi/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOgrenciBilgiSistemi/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOgrenciBilgiSistemi/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SinifNesne/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SinifNesne/CarConstructor.java" afterDir="false" />
+    <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="updated">
+      <change afterPath="$PROJECT_DIR$/src/SinifNesne/Boks/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SinifNesne/Boks/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SinifNesne/Boks/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Method/HesapMakinesi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Method/HesapMakinesi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Method/RecursiveUsluSayi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Method/RecursiveUsluSayi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOgrenciBilgiSistemi/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinifNesne/ObjectOgrenciBilgiSistemi/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOgrenciBilgiSistemi/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinifNesne/ObjectOgrenciBilgiSistemi/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOgrenciBilgiSistemi/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinifNesne/ObjectOgrenciBilgiSistemi/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOgrenciBilgiSistemi/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinifNesne/ObjectOgrenciBilgiSistemi/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,9 @@
         <option name="url" value="https://github.com/mcagricoskun/Patika.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/SinifNesne/Boks/main.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -382,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703165983719</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="updated">
+      <option name="closed" value="true" />
+      <created>1703514377241</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1703514377241</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -411,7 +420,8 @@
     <MESSAGE value="Hesap Makinesi" />
     <MESSAGE value="Asal" />
     <MESSAGE value="Garip" />
-    <option name="LAST_COMMIT_MESSAGE" value="Garip" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -435,6 +445,11 @@
           <url>file://$PROJECT_DIR$/src/SinifNesne/CarConstructor.java</url>
           <line>63</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SinifNesne/Boks/main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

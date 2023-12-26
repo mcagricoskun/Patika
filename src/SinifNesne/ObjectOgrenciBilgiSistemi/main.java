@@ -1,4 +1,4 @@
-package ObjectOgrenciBilgiSistemi;
+package SinifNesne.ObjectOgrenciBilgiSistemi;
 
 public class main {
     public static void main(String[] args) {
@@ -11,8 +11,6 @@ public class main {
         Course mat = new Course("Matematik", "MAT101", "MAT");
         Course fizik = new Course("Fizik", "FZK101", "FZK");
         Course kimya = new Course("Kimya", "KMY101", "KMY");
-
-
 
 
         mat.addTeacher(t1);

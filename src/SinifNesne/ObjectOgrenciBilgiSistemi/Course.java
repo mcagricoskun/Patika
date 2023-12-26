@@ -1,4 +1,4 @@
-package ObjectOgrenciBilgiSistemi;
+package SinifNesne.ObjectOgrenciBilgiSistemi;
 
 public class Course {
     Teacher courseTeacher;
@@ -14,13 +14,14 @@ public class Course {
         this.prefix = prefix;
         this.note = 0;
     }
+
     // Methods
-    public void addTeacher(Teacher t) {
-        if (this.prefix.equals(t.branch)) {
-            this.courseTeacher = t;
+    public void addTeacher(Teacher x) {
+        if (this.prefix.equals(x.branch)) {
+            this.courseTeacher = x;
             System.out.println("İşlem başarılı");
         } else {
-            System.out.println(t.name + " Akademisyeni bu dersi veremez.");
+            System.out.println(x.name + " Akademisyeni bu dersi veremez.");
         }
     }
 

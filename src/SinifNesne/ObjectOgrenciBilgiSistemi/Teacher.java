@@ -1,4 +1,4 @@
-package ObjectOgrenciBilgiSistemi;
+package SinifNesne.ObjectOgrenciBilgiSistemi;
 
 public class Teacher {
     String name;
