@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/src/SinifNesne/MaasHesabi/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SinifNesne/MaasHesabi/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ArrayHarmonik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ArrayMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ArrayOrt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Matrisler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Temel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SinifNesne/MaasHesabi/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinifNesne/MaasHesabi/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SinifNesne/MaasHesabi/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinifNesne/MaasHesabi/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +90,7 @@
       <recent name="C:\Users\cagri.coskun\IdeaProjects\Patika\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager">
     <configuration name="Kdv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kdv" />
       <module name="Patika" />
@@ -408,7 +414,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703595515441</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="updated">
+      <option name="closed" value="true" />
+      <created>1703600865962</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1703600865962</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -462,6 +476,11 @@
           <url>file://$PROJECT_DIR$/src/SinifNesne/CarConstructor.java</url>
           <line>63</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/ArrayHarmonik.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

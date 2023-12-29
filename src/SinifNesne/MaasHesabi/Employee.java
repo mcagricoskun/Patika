@@ -4,13 +4,13 @@ import java.util.SortedMap;
 
 public class Employee {
     String name;
-    double maas;
+    double maas = 5000;
     int workHours;
     int hireYear;
 
     //Constructor
 
-    public Employee(String name, int maas, int workHours, int hireYear) {
+    public Employee(String name, double maas, int workHours, int hireYear) {
         this.name = name;
         this.maas = maas;
         this.workHours = workHours;
@@ -44,7 +44,7 @@ public class Employee {
     public double sum(){
        return maas + bonus() + raise() - tax();
     }
-    public void printEmloyee(){
+    public void printEmployee(){
 
         System.out.println("Adı : " + name);
         System.out.println("Maaşı : " + maas);
