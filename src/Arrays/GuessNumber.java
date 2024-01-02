@@ -8,16 +8,17 @@ public class GuessNumber {
     public static void main(String[] args) {
         Random rand = new Random();
         int number = rand.nextInt(100);
-        //int number = (int) (Math.random() * 100);
+        //int number = (int) (Math.random() * 100); yukardaki ile aynı
 
         Scanner input = new Scanner(System.in);
-        int right = 0;
-        int selected;
+        int right = 0; //kullanıcının kaç hakkı kaldığını tutmak için
+        int selected; // kullanıcının tahmini
         int[] wrong = new int[5];
         boolean isWin = false;
         boolean isWrong = false;
 
         System.out.println(number);
+
         while (right < 5) {
             System.out.print("Lütfen tahmininizi giriniz : ");
             selected = input.nextInt();

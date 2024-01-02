@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/AWithStars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/ArrayGirilenSayiMİnMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/ArrayMaxMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/FindRepeatingNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MathClassMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/StringClassMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/PalindromikKelime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/GuessNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/GuessNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -430,7 +426,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703854597005</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="updated">
+      <option name="closed" value="true" />
+      <created>1704205047531</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1704205047531</updated>
+    </task>
+    <task id="LOCAL-00037" summary="updated">
+      <option name="closed" value="true" />
+      <created>1704205055039</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1704205055039</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="UnknownFeatures">
