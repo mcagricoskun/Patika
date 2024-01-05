@@ -12,12 +12,21 @@ public class FindRepeatingNumbers {
         return false;
     }
     public static void main(String[] args) {
-        int[] list  = {3,7,3,3,2,9,10,21,1,33,9,1};
+        //int[] list  = {3,7,3,3,2,9,10,21,1,33,9,1};
+        int[] list  = new int[1000];
+        for (int i=0; i<1000;i++)
+        {
+            list[i] = (int)(Math.random()*50);
+        }
         int[] duplicate = new int[list.length];
+
         int startIndex = 0;
+
+        int count =0;
 
         for (int i = 0; i < list.length; i++){
             for (int j = 0; j < list.length; j++) {
+                count++;
                 //kendisine bakaması için i = değil j dedik
                 if((i!=j) && (list[i] == list[j])){
                     if (!isFind(duplicate, list[i])){
@@ -35,5 +44,6 @@ public class FindRepeatingNumbers {
                 System.out.println(value);
             }
         }
+        System.out.println("toplam dönme: "+count);
     }
 }

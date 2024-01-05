@@ -18,6 +18,5 @@ public class ArrayMaxMin {
 
         System.out.println("Minimum Değer " + min);
         System.out.println("Maximum Değer " + max);
-
     }
 }

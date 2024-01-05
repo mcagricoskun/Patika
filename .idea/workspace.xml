@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/PalindromikKelime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Kitap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Polymorphism.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/GuessNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/GuessNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/ArrayMaxMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/ArrayMaxMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/FindRepeatingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/FindRepeatingNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/PalindromikKelime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/PalindromikKelime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +70,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -442,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704205055039</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="updated">
+      <option name="closed" value="true" />
+      <created>1704205777716</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1704205777716</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -503,14 +520,14 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Arrays/ArrayMaxMin.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Arrays/AWithStars.java</url>
           <line>6</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/ArrayMaxMin.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
