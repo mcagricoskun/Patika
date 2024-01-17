@@ -4,16 +4,15 @@ package MidLevel.GameProject;
 import java.util.Scanner;
 
 public class Player {
+    Scanner input = new Scanner(System.in);
 
 
     // Class Attributes
     private int damage;
     private int health;
-    private int money;
+    private int money = 35;
     private int heroId;
-    private static final int samuraiId = 1;
-    private static final int archerId = 2;
-    private static final int paladinId = 3;
+
     private String name;
     private String heroName;
     Inventory inventory;
@@ -41,17 +40,17 @@ public class Player {
         System.out.println("------------------");
 
         System.out.println("Choose your hero id: ");
-        Scanner input = new Scanner(System.in);
+
         heroId = input.nextInt();
 
         switch (heroId){
-            case samuraiId:
+            case 1:
                 initPlayer(new Samurai());
                 break;
-            case archerId:
+            case 2:
                 initPlayer(new Archer());
                 break;
-            case paladinId:
+            case 3:
                 initPlayer(new Paladin());
                 break;
             default:
@@ -70,6 +69,11 @@ public class Player {
         this.setHeroName(hero.getHeroName());
     }
 
+
+    public void  selectLocation(){
+
+
+    }
     public int getDamage() {
         return damage;
     }
