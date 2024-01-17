@@ -5,9 +5,6 @@ public abstract class Hero {
 
     //Attributes
     private int heroId;
-
-
-
     private int damage;
     private int health;
     private int money;

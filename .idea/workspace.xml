@@ -5,86 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/Abstraction/Doping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/AccessModifiers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Paladin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Samurai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/Interfaces/ABankasi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/Interfaces/BBankasi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/Interfaces/IBanka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/Interfaces/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/SiniflarArasiIliskiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/Static/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/Static/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/AWithStars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Arrays/AWithStars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/ArrayGirilenSayiMİnMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Arrays/ArrayGirilenSayiMİnMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/ArrayHarmonik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Arrays/ArrayHarmonik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/ArrayMaxMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Arrays/ArrayMaxMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/ArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Arrays/ArrayMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/ArrayOrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Arrays/ArrayOrt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/FindRepeatingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Arrays/FindRepeatingNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/ForEach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Arrays/ForEach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/GuessNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Arrays/GuessNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/MathClassMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Arrays/MathClassMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Matrisler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Arrays/Matrisler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/PalindromikKelime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Arrays/PalindromikKelime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/StringClassMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Arrays/StringClassMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Temel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Arrays/Temel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dongu/Burc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Dongu/Burc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dongu/DoWhilePassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Dongu/DoWhilePassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dongu/DonguArmstronV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Dongu/DonguArmstronV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dongu/DonguArmstrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Dongu/DonguArmstrong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dongu/DonguCiftSayi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Dongu/DonguCiftSayi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dongu/DonguToplama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Dongu/DonguToplama.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dongu/ForDongusu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Dongu/ForDongusu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dongu/HackerRankIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Dongu/HackerRankIfElse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dongu/PasswordControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Dongu/PasswordControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dongu/SayilariSirala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Dongu/SayilariSirala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dongu/WhilePasword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Dongu/WhilePasword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dongu/YildizElmas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Dongu/YildizElmas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dongu/YildizUcgen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Dongu/YildizUcgen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Method/HackerRank2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Method/HackerRank2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Method/HesapMakinesi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Method/HesapMakinesi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Method/Palindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Method/Palindrom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Method/Recursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Method/Recursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Method/RecursiveAsalSayi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Method/RecursiveAsalSayi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Method/RecursiveToplaCikar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Method/RecursiveToplaCikar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Method/RecursiveUsluSayi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Method/RecursiveUsluSayi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Method/RecusiveFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Method/RecusiveFibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Method/Temel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Method/Temel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/OOP/Abstraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Doping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/OOP/Doping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Inheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/OOP/Inheritance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Kitap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/OOP/Kitap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Polymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/OOP/Polymorphism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinifNesne/Boks/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/SinifNesne/Boks/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinifNesne/Boks/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/SinifNesne/Boks/Match.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinifNesne/Boks/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/SinifNesne/Boks/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinifNesne/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/SinifNesne/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinifNesne/CarConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/SinifNesne/CarConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinifNesne/MaasHesabi/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/SinifNesne/MaasHesabi/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinifNesne/MaasHesabi/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/SinifNesne/MaasHesabi/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinifNesne/ObjectOgrenciBilgiSistemi/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/SinifNesne/ObjectOgrenciBilgiSistemi/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinifNesne/ObjectOgrenciBilgiSistemi/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/SinifNesne/ObjectOgrenciBilgiSistemi/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinifNesne/ObjectOgrenciBilgiSistemi/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/SinifNesne/ObjectOgrenciBilgiSistemi/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinifNesne/ObjectOgrenciBilgiSistemi/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/SinifNesne/ObjectOgrenciBilgiSistemi/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Temel/Bmi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Temel/Bmi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Temel/Daire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Temel/Daire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Temel/Hipotenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Temel/Hipotenus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Temel/Kdv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Temel/Kdv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Temel/NotOrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Temel/NotOrt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Temel/Taksimetre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Temel/Taksimetre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Temel/Temel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beginner/Temel/Temel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -556,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704464593802</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="updated">
+      <option name="closed" value="true" />
+      <created>1705478872003</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1705478872003</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="UnknownFeatures">

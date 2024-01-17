@@ -6,11 +6,14 @@ import java.util.Scanner;
 public class Player {
 
 
-
     // Class Attributes
     private int damage;
     private int health;
     private int money;
+    private int heroId;
+    private static final int samuraiId = 1;
+    private static final int archerId = 2;
+    private static final int paladinId = 3;
     private String name;
     private String heroName;
     Inventory inventory;
@@ -23,7 +26,7 @@ public class Player {
     // Methods
     public void selectChar() {
 
-        //Hero sınıfından herolist adında liste oluşturup içine nesneleri attık
+        //Hero sınıfından herolist adında liste oluşturup içine nesneleri attım
         Hero[] heroList = {new Samurai(), new Archer(), new Paladin()};
         System.out.println("Heros! ");
         System.out.println("------------------");
@@ -39,19 +42,21 @@ public class Player {
 
         System.out.println("Choose your hero id: ");
         Scanner input = new Scanner(System.in);
-        int heroId = input.nextInt();
+        heroId = input.nextInt();
 
         switch (heroId){
-            case 1:
+            case samuraiId:
                 initPlayer(new Samurai());
                 break;
-            case 2:
+            case archerId:
                 initPlayer(new Archer());
                 break;
-            case 3:
+            case paladinId:
                 initPlayer(new Paladin());
+                break;
             default:
                 initPlayer(new Samurai());
+                break;
 
         }
         System.out.println("You selected " + this.getHeroName());
@@ -62,7 +67,7 @@ public class Player {
         this.setDamage(hero.getDamage());
         this.setHealth(hero.getHealth());
         this.setMoney(hero.getMoney());
-        this.setHeroName(getHeroName());
+        this.setHeroName(hero.getHeroName());
     }
 
     public int getDamage() {
