@@ -22,6 +22,7 @@ public class Store extends HomeLand {
         switch (selectCase) {
             case 1:
                 printWeapon();
+                buyWeapon();
                 break;
             case 2:
                 printArmor();
@@ -33,34 +34,42 @@ public class Store extends HomeLand {
     }
 
 
-
-    public void printWeapon(){
+    public void printWeapon() {
         System.out.println("-----Weapons-----");
-        for (Weapon w: Weapon.weapons()) {
+        for (Weapon w : Weapon.weapons()) {
             System.out.println("ID: " + w.getId() + " | " + w.getWeaponName() + " ==> Price: " + w.getPrice() + " Damage: " + w.getDamage());
         }
+    }
+
+    public void buyWeapon() {
         System.out.println("Choose weapon that you want: ");
         int selectedWeaponID = input.nextInt();
         while (selectedWeaponID < 1 || selectedWeaponID > Weapon.weapons().length) {
             System.out.println("Invalide choice!");
             selectedWeaponID = input.nextInt();
         }
+
         Weapon selectedWeapon = Weapon.getWeaponById(selectedWeaponID);
-        if(selectedWeapon != null){
-            if(selectedWeapon.getPrice()>this.getPlayer().getHealth()){
+        if (selectedWeapon != null) {
+            if (selectedWeapon.getPrice() > this.getPlayer().getMoney()) {
                 System.out.println("Not Enough MONEY!");
-            }
-            else{
-                System.out.println("You bouhght: " + selectedWeapon.getWeaponName());
-                int balance = this.getPlayer().getMoney()-selectedWeapon.getPrice();
+                System.out.println(this.getPlayer().getMoney());
+                System.out.println(selectedWeapon.getPrice());
+            } else {
+                System.out.println("You bought: " + selectedWeapon.getWeaponName());
+                int balance = this.getPlayer().getMoney() - selectedWeapon.getPrice();
                 this.getPlayer().setMoney(balance);
                 System.out.println("Balance: " + this.getPlayer().getMoney());
+                System.out.println("You had: " + this.getPlayer().getInventory().getWeapon().getWeaponName());
+                this.getPlayer().getInventory().setWeapon(selectedWeapon);
+                System.out.println("Your new weapon is ==>" + this.getPlayer().getInventory().getWeapon().getWeaponName());
             }
 
         }
 
     }
-    public void printArmor(){
+
+    public void printArmor() {
 
     }
 }

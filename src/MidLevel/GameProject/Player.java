@@ -10,16 +10,17 @@ public class Player {
     // Class Attributes
     private int damage;
     private int health;
-    private int money = 35;
+    private int money;
     private int heroId;
 
     private String name;
     private String heroName;
-    Inventory inventory;
+    private Inventory inventory;
 
     //Constructor
     public Player(String name) {
         this.name = name;
+        this.inventory = new Inventory(); //başlangıçta boş bir inventory içinde punch var
     }
 
     // Methods
@@ -30,7 +31,7 @@ public class Player {
         System.out.println("Heros! ");
         System.out.println("------------------");
         for (Hero hero : heroList) {
-            System.out.println("Hero ID: " + hero.getHeroId()+
+            System.out.println("Hero ID: " + hero.getHeroId() +
                     "\t Hero: " + hero.getHeroName() +
                     "\t Damage: " + hero.getDamage() +
                     "\t Health: " + hero.getHealth() +
@@ -43,7 +44,7 @@ public class Player {
 
         heroId = input.nextInt();
 
-        switch (heroId){
+        switch (heroId) {
             case 1:
                 initPlayer(new Samurai());
                 break;
@@ -58,28 +59,40 @@ public class Player {
                 break;
 
         }
-        System.out.println("You selected " + this.getHeroName());
+        System.out.println("You selected " + this.getHeroName()
+                + " Damage " + this.getDamage()
+                + " Health " + this.getHealth()
+                + " Money " + this.getMoney());
 
     }
+
     //kullanıcının seçtiği hero nun özellikleri playera basıyorum
-    public void initPlayer(Hero hero){
+    public void initPlayer(Hero hero) {
         this.setDamage(hero.getDamage());
         this.setHealth(hero.getHealth());
         this.setMoney(hero.getMoney());
         this.setHeroName(hero.getHeroName());
     }
 
+    public void printPlayerInfo() {
+        System.out.println("Your weapon =>" + this.getInventory().getWeapon().getWeaponName()
+                + " | Damage =>" + this.getDamage()
+                + " | Health =>" + this.getHealth()
+                + " | Money =>" + this.getMoney());
+    }
 
-    public void  selectLocation(){
+
+    public void selectLocation() {
 
 
     }
+
     public int getDamage() {
-        return damage;
+        return damage + this.getInventory().getWeapon().getDamage();
     }
 
     public void setDamage(int damage) {
-        this.damage = damage;
+        this.damage = damage ;
     }
 
     public int getHealth() {
@@ -122,5 +135,11 @@ public class Player {
         this.inventory = inventory;
     }
 
+    public int getHeroId() {
+        return heroId;
+    }
 
+    public void setHeroId(int heroId) {
+        this.heroId = heroId;
+    }
 }

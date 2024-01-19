@@ -15,7 +15,7 @@ public class Weapon {
 
     public static Weapon[] weapons() {
         Weapon[] waeponList = new Weapon[3];
-        waeponList[0] = new Weapon(1, "Pistol", 2, 25);
+        waeponList[0] = new Weapon(1, "Pistol", 2, 5);
         waeponList[1] = new Weapon(2, "Sword", 3, 35);
         waeponList[2] = new Weapon(3, "Rifle", 7, 45);
         return waeponList;

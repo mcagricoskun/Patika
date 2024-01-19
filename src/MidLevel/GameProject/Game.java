@@ -15,7 +15,7 @@ public class Game {
 
         Location location;
         while (true) {
-
+            player.printPlayerInfo();
             System.out.println("Locations!");
             System.out.println("1 - Safe House");
             System.out.println("2 - Shop");
