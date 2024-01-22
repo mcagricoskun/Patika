@@ -77,8 +77,11 @@ public class Player {
     public void printPlayerInfo() {
         System.out.println("Your weapon =>" + this.getInventory().getWeapon().getWeaponName()
                 + " | Damage =>" + this.getDamage()
+                + " | Armor =>" + this.getInventory().getArmor().getArmorName()
+                + " | Block =>" + this.getInventory().getArmor().getBlock()
                 + " | Health =>" + this.getHealth()
                 + " | Money =>" + this.getMoney());
+        System.out.println("---------------");
     }
 
 
@@ -92,7 +95,7 @@ public class Player {
     }
 
     public void setDamage(int damage) {
-        this.damage = damage ;
+        this.damage = damage;
     }
 
     public int getHealth() {

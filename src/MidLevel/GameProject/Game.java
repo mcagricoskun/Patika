@@ -19,10 +19,14 @@ public class Game {
             System.out.println("Locations!");
             System.out.println("1 - Safe House");
             System.out.println("2 - Shop");
+            System.out.println("0 - Exit");
             System.out.println("Choose where you want to go!");
             int selectedLocation = input.nextInt();
 
             switch (selectedLocation) {
+                case 0:
+                    location = null;
+                    break;
                 case 1:
                     location = new SafeHouse(player);
                     break;
@@ -32,6 +36,10 @@ public class Game {
                 default:
                     location = new SafeHouse(player);
                     break;
+            }
+            if (location == null){
+                System.out.println("Confirmed");
+                break;
             }
             if (!location.onLocation()) {
                 System.out.println("GAME OVER!");
