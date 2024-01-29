@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="Armors added">
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Bear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Vampire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Zombie.java" afterDir="false" />
+    <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="almost finished">
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/heroArcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/heroPaladin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/BattleLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/BattleLocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/Cave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Cave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/Forest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Forest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/River.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/SafeHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/SafeHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +95,7 @@
       <recent name="MidLevel.Abstraction" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MidLevel.GameProject.main">
+  <component name="RunManager">
     <configuration name="Kdv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kdv" />
       <module name="Patika" />
@@ -530,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705927957439</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="almost finished">
+      <option name="closed" value="true" />
+      <created>1706534245438</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1706534245438</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -561,7 +560,8 @@
     <MESSAGE value="Garip" />
     <MESSAGE value="updated" />
     <MESSAGE value="Armors added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Armors added" />
+    <MESSAGE value="almost finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
