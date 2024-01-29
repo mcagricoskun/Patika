@@ -6,12 +6,12 @@ public abstract class  Location {
     public static Scanner input = new Scanner(System.in); //NEDENNN
 
     private Player player;
-    private String name;
+    private String locationName;
 
     //Constructor
-    public Location(Player player, String name) {
+    public Location(Player player, String locationName) {
         this.player = player;
-        this.name = name;
+        this.locationName = locationName;
     }
 
     abstract boolean onLocation();
@@ -26,11 +26,11 @@ public abstract class  Location {
         this.player = player;
     }
 
-    public String getName() {
-        return name;
+    public String getLocationName() {
+        return locationName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setLocationName(String locationName) {
+        this.locationName = locationName;
     }
 }

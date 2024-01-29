@@ -79,8 +79,6 @@ public class Store extends HomeLand {
         }
         System.out.println("0 - Exit");
     }
-
-
     public void buyArmor() {
         System.out.println("Choose armor that you want: ");
         int selectedArmorID = input.nextInt();

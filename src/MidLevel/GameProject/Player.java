@@ -10,6 +10,7 @@ public class Player {
     // Class Attributes
     private int damage;
     private int health;
+    private int defaultHealth;
     private int money;
     private int heroId;
 
@@ -72,11 +73,12 @@ public class Player {
         this.setHealth(hero.getHealth());
         this.setMoney(hero.getMoney());
         this.setHeroName(hero.getHeroName());
+        this.setHealth((hero.getHealth()));
     }
 
     public void printPlayerInfo() {
         System.out.println("Your weapon =>" + this.getInventory().getWeapon().getWeaponName()
-                + " | Damage =>" + this.getDamage()
+                + " | Damage =>" + this.getTotalDamage()
                 + " | Armor =>" + this.getInventory().getArmor().getArmorName()
                 + " | Block =>" + this.getInventory().getArmor().getBlock()
                 + " | Health =>" + this.getHealth()
@@ -89,9 +91,12 @@ public class Player {
 
 
     }
-
-    public int getDamage() {
+    public int getTotalDamage(){
         return damage + this.getInventory().getWeapon().getDamage();
+
+    }
+    public int getDamage() {
+        return damage;
     }
 
     public void setDamage(int damage) {
@@ -144,5 +149,13 @@ public class Player {
 
     public void setHeroId(int heroId) {
         this.heroId = heroId;
+    }
+
+    public int getDefaultHealth() {
+        return defaultHealth;
+    }
+
+    public void setDefaultHealth(int defaultHealth) {
+        this.defaultHealth = defaultHealth;
     }
 }

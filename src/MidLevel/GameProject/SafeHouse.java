@@ -11,6 +11,7 @@ public class SafeHouse extends HomeLand {
     public boolean onLocation(){
         System.out.println("You are at home!");
         System.out.println("Your life has been renewed");
+        this.getPlayer().getDefaultHealth();
         return true;
     }
 }

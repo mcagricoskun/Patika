@@ -3,7 +3,7 @@ package MidLevel.GameProject;
 public class River extends BattleLocation{
 
 
-    public River(Player player, String name) {
-        super(player, name);
+    public River(Player player) {
+        super(player, "River", new Bear(), "Water",2);
     }
 }

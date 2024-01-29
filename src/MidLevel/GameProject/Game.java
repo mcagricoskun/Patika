@@ -16,9 +16,14 @@ public class Game {
         Location location;
         while (true) {
             player.printPlayerInfo();
-            System.out.println("Locations!");
+            System.out.println("Safe Locations!");
             System.out.println("1 - Safe House");
             System.out.println("2 - Shop");
+            System.out.println("-------------------------");
+            System.out.println("Battlefields");
+            System.out.println("3 - Enter to the Cave, The award is Food ");
+            System.out.println("4 - Enter to the Forest, The award is Wood");
+            System.out.println("5 - Enter to the River, The award is Water ");
             System.out.println("0 - Exit");
             System.out.println("Choose where you want to go!");
             int selectedLocation = input.nextInt();
@@ -32,6 +37,15 @@ public class Game {
                     break;
                 case 2:
                     location = new Store(player);
+                    break;
+                case 3:
+                    location = new Cave(player);
+                    break;
+                case 4:
+                    location = new Forest(player);
+                    break;
+                case 5:
+                    location= new River(player);
                     break;
                 default:
                     location = new SafeHouse(player);
