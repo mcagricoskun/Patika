@@ -3,10 +3,10 @@ package GameTwo;
 public class heroArcher extends Hero {
 
 
-    //constructor
+    //Constructor
 
     public heroArcher(){
-        //üst sınıfa erişmeye yarar
+        //super üst sınıfa erişmeye yarar super
         super(1, "Okçu", 3, 12, 30);
     }
 

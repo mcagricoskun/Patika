@@ -4,12 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="almost finished">
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/heroArcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/heroPaladin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/main.java" afterDir="false" />
+    <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="Game Project 2 - kafama göre">
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/heroCavalry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/locationBattle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/locationBattleCave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/locationBattleMountain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/locationBattleSea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/locationVillage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/locationVillageHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/locationVillageStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/monsterBear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/monsterWhale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameTwo/monsterWolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/heroArcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/heroArcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,26 +79,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/cagri.coskun/IdeaProjects/Deneme&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/cagri.coskun/Desktop/Java-RESTful-Web-Service-main",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cagri.coskun\IdeaProjects\Patika" />
@@ -529,7 +544,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706534245438</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Game Project 2 - kafama göre">
+      <option name="closed" value="true" />
+      <created>1706538223276</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1706538223276</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -561,7 +584,8 @@
     <MESSAGE value="updated" />
     <MESSAGE value="Armors added" />
     <MESSAGE value="almost finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="almost finished" />
+    <MESSAGE value="Game Project 2 - kafama göre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Game Project 2 - kafama göre" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
