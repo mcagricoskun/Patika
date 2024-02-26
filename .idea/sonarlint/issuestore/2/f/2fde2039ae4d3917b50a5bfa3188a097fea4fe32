@@ -20,8 +20,8 @@ E	java:S106/"+Replace this use of System.out by a logger.(¦àÂšùÿÿÿÿ
 E	java:S1062"+Replace this use of System.out by a logger.(ß¬‚şÿÿÿÿ
 E	java:S1069"+Replace this use of System.out by a logger.(Ûòï’üÿÿÿÿ
 @	java:S106:"+Replace this use of System.out by a logger.(›éÙ™
-E	java:S106;"+Replace this use of System.out by a logger.(´±âüÿÿÿÿ
-@	java:S106="+Replace this use of System.out by a logger.(ÓÔ˜º
+?	java:S106;"+Replace this use of System.out by a logger.(¬§Õ*
+E	java:S106="+Replace this use of System.out by a logger.(í½Îûÿÿÿÿ
 ?	java:S106@"+Replace this use of System.out by a logger.(£Û‡ 
 @	java:S106A"+Replace this use of System.out by a logger.(â×ñò
 E	java:S106C"+Replace this use of System.out by a logger.(Ğ“ŸÖøÿÿÿÿ

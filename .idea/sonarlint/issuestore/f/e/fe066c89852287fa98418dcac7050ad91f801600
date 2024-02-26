@@ -1,24 +1,24 @@
 
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(µÁı¹şÿÿÿÿ8ç†ĞßÜ1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ÷­Ìÿÿÿÿÿ8è†ĞßÜ1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(µÁı¹şÿÿÿÿ8ò‰ë¤Ş1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ÷­Ìÿÿÿÿÿ8õ‰ë¤Ş1
 [
-java:S3516	"9Refactor this method to not always return the same value.(©Çúşÿÿÿÿ8ÿ†ĞßÜ1
+java:S3516	"9Refactor this method to not always return the same value.(©Çúşÿÿÿÿ8±Šë¤Ş1
 G	java:S106
-"+Replace this use of System.out by a logger.(ôşÖ„8‚‡ĞßÜ1
-G	java:S106"+Replace this use of System.out by a logger.(ÔĞÃ¨8‚‡ĞßÜ1
-L	java:S106"+Replace this use of System.out by a logger.(Æß½‰şÿÿÿÿ8‚‡ĞßÜ1
-L	java:S106"+Replace this use of System.out by a logger.(ğâ‹Ùûÿÿÿÿ8ƒ‡ĞßÜ1
-G	java:S106"+Replace this use of System.out by a logger.(’–§È8ƒ‡ĞßÜ1
->	java:S131""Add a default case to this switch.(¶ÌÌÅ8ƒ‡ĞßÜ1
-]	java:S125"<This block of commented-out lines of code should be removed.(‚•¹ÿÿÿÿÿ8„‡ĞßÜ1
-G	java:S106'"+Replace this use of System.out by a logger.(´¦°Ù8„‡ĞßÜ1
-L	java:S106/"+Replace this use of System.out by a logger.(´‰µÇøÿÿÿÿ8…‡ĞßÜ1
-L	java:S1061"+Replace this use of System.out by a logger.(Œâ•¡ûÿÿÿÿ8…‡ĞßÜ1
-L	java:S1065"+Replace this use of System.out by a logger.(ğ“”²üÿÿÿÿ8†‡ĞßÜ1
-G	java:S1069"+Replace this use of System.out by a logger.(û’éú8†‡ĞßÜ1
-L	java:S106@"+Replace this use of System.out by a logger.(à’Ÿªıÿÿÿÿ8‡‡ĞßÜ1
-G	java:S106A"+Replace this use of System.out by a logger.(ÅÂÿĞ8‡‡ĞßÜ1
-L	java:S106B"+Replace this use of System.out by a logger.(‘Ş¶äøÿÿÿÿ8‡‡ĞßÜ1
-L	java:S106D"+Replace this use of System.out by a logger.(’î¹ñúÿÿÿÿ8ˆ‡ĞßÜ1
-L	java:S106I"+Replace this use of System.out by a logger.(µ¡åüÿÿÿÿ8ˆ‡ĞßÜ1
-L	java:S106K"+Replace this use of System.out by a logger.(Äúªµÿÿÿÿÿ8‰‡ĞßÜ1
+"+Replace this use of System.out by a logger.(ôşÖ„8¹Šë¤Ş1
+G	java:S106"+Replace this use of System.out by a logger.(ÔĞÃ¨8ºŠë¤Ş1
+L	java:S106"+Replace this use of System.out by a logger.(Æß½‰şÿÿÿÿ8ºŠë¤Ş1
+L	java:S106"+Replace this use of System.out by a logger.(ğâ‹Ùûÿÿÿÿ8»Šë¤Ş1
+G	java:S106"+Replace this use of System.out by a logger.(’–§È8¾Šë¤Ş1
+>	java:S131""Add a default case to this switch.(¶ÌÌÅ8ÎŠë¤Ş1
+]	java:S125"<This block of commented-out lines of code should be removed.(‚•¹ÿÿÿÿÿ8ĞŠë¤Ş1
+G	java:S106%"+Replace this use of System.out by a logger.(´¦°Ù8ÒŠë¤Ş1
+L	java:S106-"+Replace this use of System.out by a logger.(´‰µÇøÿÿÿÿ8ÕŠë¤Ş1
+L	java:S106/"+Replace this use of System.out by a logger.(Œâ•¡ûÿÿÿÿ8ÖŠë¤Ş1
+L	java:S1063"+Replace this use of System.out by a logger.(ğ“”²üÿÿÿÿ8ØŠë¤Ş1
+G	java:S1067"+Replace this use of System.out by a logger.(û’éú8ÚŠë¤Ş1
+L	java:S106>"+Replace this use of System.out by a logger.(à’Ÿªıÿÿÿÿ8ßŠë¤Ş1
+G	java:S106?"+Replace this use of System.out by a logger.(ÅÂÿĞ8âŠë¤Ş1
+L	java:S106@"+Replace this use of System.out by a logger.(‘Ş¶äøÿÿÿÿ8äŠë¤Ş1
+L	java:S106B"+Replace this use of System.out by a logger.(’î¹ñúÿÿÿÿ8çŠë¤Ş1
+L	java:S106H"+Replace this use of System.out by a logger.(µ¡åüÿÿÿÿ8½ë¤Ş1
+L	java:S106J"+Replace this use of System.out by a logger.(Äúªµÿÿÿÿÿ8¾ë¤Ş1

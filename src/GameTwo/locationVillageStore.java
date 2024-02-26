@@ -33,8 +33,6 @@ public class locationVillageStore extends locationVillage {
         }
         return true;
     }
-
-
     public void printWeapon() {
         System.out.println("Satın alabileceğin silahlar:");
         for (Weapon w : Weapon.weapons()) {
@@ -66,6 +64,7 @@ public class locationVillageStore extends locationVillage {
                     System.out.println("Almak istediğin silah: " + selectedWeapon.getWeaponPrice() + " altın.");
                 } else {
                     System.out.println(selectedWeapon.getWeaponName() + " Satın aldın!");
+
                     this.getPlayer().getInventory().setWeapon(selectedWeapon);
 
                     int balance = this.getPlayer().getPlayerMoney() - selectedWeapon.getWeaponPrice();
@@ -77,4 +76,6 @@ public class locationVillageStore extends locationVillage {
             }
         }
     }
+
+
 }

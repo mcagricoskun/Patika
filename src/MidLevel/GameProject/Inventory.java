@@ -4,21 +4,21 @@ public class Inventory {
     // private boolean water;
     //private boolean food;
     // private boolean firewood;
-    private Weapon weapon;
+    private Weapons weapons;
     private Armor armor;
 
     public Inventory() {
-        this.weapon = new Weapon(0, "Punch", 0, 0);
+        this.weapons = new Weapons(0, "Punch", 0, 0);
         this.armor = new Armor(0, "Rag", 0, 0);
     }
 
 
-    public Weapon getWeapon() {
-        return weapon;
+    public Weapons getWeapon() {
+        return weapons;
     }
 
-    public void setWeapon(Weapon weapon) {
-        this.weapon = weapon;
+    public void setWeapon(Weapons weapons) {
+        this.weapons = weapons;
     }
 
     public Armor getArmor() {

@@ -1,28 +1,28 @@
 package MidLevel.GameProject;
 
-public class Weapon {
+public class Weapons extends GameTwo.Weapon {
     String weaponName;
     private int weaponId;
     private int weaponDamage;
     private int weaponPrice;
 
-    public Weapon(int weaponId, String weaponName, int weaponDamage, int weaponPrice) {
+    public Weapons(int weaponId, String weaponName, int weaponDamage, int weaponPrice) {
         this.weaponName = weaponName;
         this.weaponId = weaponId;
         this.weaponDamage = weaponDamage;
         this.weaponPrice = weaponPrice;
     }
 
-    public static Weapon[] weapons() {
-        Weapon[] waeponList = new Weapon[3];
-        waeponList[0] = new Weapon(1, "Pistol", 2, 5);
-        waeponList[1] = new Weapon(2, "Sword", 3, 35);
-        waeponList[2] = new Weapon(3, "Rifle", 7, 45);
+    public static Weapons[] weapons() {
+        Weapons[] waeponList = new Weapons[3];
+        waeponList[0] = new Weapons(1, "Pistol", 2, 5);
+        waeponList[1] = new Weapons(2, "Sword", 3, 35);
+        waeponList[2] = new Weapons(3, "Rifle", 7, 45);
         return waeponList;
     }
 
-    public static Weapon getWeaponById(int id){
-        for (Weapon w : Weapon.weapons()){
+    public static Weapons getWeaponById(int id){
+        for (Weapons w : Weapons.weapons()){
             if(w.getWeaponId() == id){
                 return w;
             }

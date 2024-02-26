@@ -1,6 +1,6 @@
 package GameTwo;
 
-import MidLevel.GameProject.Weapon;
+
 
 public class Inventory {
     private Armor armor;
@@ -23,7 +23,7 @@ public class Inventory {
         return weapon;
     }
 
-    public void setWeapon(Weapon weapon) {
-        this.weapon = weapon;
+    public void setWeapon(Weapon weapons) {
+        this.weapon = weapons;
     }
 }

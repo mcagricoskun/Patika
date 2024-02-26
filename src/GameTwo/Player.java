@@ -1,8 +1,6 @@
 package GameTwo;
 
-import MidLevel.GameProject.Archer;
-import MidLevel.GameProject.Paladin;
-import MidLevel.GameProject.Samurai;
+
 
 import java.util.Scanner;
 

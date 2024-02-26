@@ -37,7 +37,7 @@ public class Store extends HomeLand {
 
     public void printWeapon() {
         System.out.println("-----Weapons-----");
-        for (Weapon w : Weapon.weapons()) {
+        for (Weapons w : Weapons.weapons()) {
             System.out.println("ID: " + w.getWeaponId() + " | " + w.getWeaponName() + " ==> Price: " + w.getWeaponPrice() + " Damage: " + w.getWeaponDamage());
         }
         System.out.println("0 - Exit from store");
@@ -45,25 +45,25 @@ public class Store extends HomeLand {
 
     public void buyWeapon() {
         System.out.println("Choose weapon that you want: ");
-        int selectedWeaponID = input.nextInt();
-        while (selectedWeaponID < 0 || selectedWeaponID > Weapon.weapons().length) {
+        int selectedWeaponID2 = input.nextInt();
+        while (selectedWeaponID2 < 0 || selectedWeaponID2 > Weapons.weapons().length) {
             System.out.println("Invalide choice!");
-            selectedWeaponID = input.nextInt();
+            selectedWeaponID2 = input.nextInt();
         }
-        if (selectedWeaponID != 0) {
-            Weapon selectedWeapon = Weapon.getWeaponById(selectedWeaponID);
-            if (selectedWeapon != null) {
-                if (selectedWeapon.getWeaponPrice() > this.getPlayer().getMoney()) {
+        if (selectedWeaponID2 != 0) {
+            Weapons selectedWeapons = Weapons.getWeaponById(selectedWeaponID2);
+            if (selectedWeapons != null) {
+                if (selectedWeapons.getWeaponPrice() > this.getPlayer().getMoney()) {
                     System.out.println("Not Enough MONEY!");
                     System.out.println(this.getPlayer().getMoney());
-                    System.out.println(selectedWeapon.getWeaponPrice());
+                    System.out.println(selectedWeapons.getWeaponPrice());
                 } else {
-                    System.out.println("You bought: " + selectedWeapon.getWeaponName());
-                    int balance = this.getPlayer().getMoney() - selectedWeapon.getWeaponPrice();
+                    System.out.println("You bought: " + selectedWeapons.getWeaponName());
+                    int balance = this.getPlayer().getMoney() - selectedWeapons.getWeaponPrice();
                     this.getPlayer().setMoney(balance);
                     System.out.println("Balance: " + this.getPlayer().getMoney());
                     System.out.println("You had: " + this.getPlayer().getInventory().getWeapon().getWeaponName());
-                    this.getPlayer().getInventory().setWeapon(selectedWeapon);
+                    this.getPlayer().getInventory().setWeapon(selectedWeapons);
                     System.out.println("Your new weapon is ==>" + this.getPlayer().getInventory().getWeapon().getWeaponName());
                 }
 
