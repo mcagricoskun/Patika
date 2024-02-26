@@ -1,0 +1,25 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„èþ¤þÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ÷­Ìÿÿÿÿÿ
+O
+java:S5993"9Change the visibility of this constructor to "protected".(ŸÔé˜
+E	java:S106"+Replace this use of System.out by a logger.(Š…¹Æÿÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(…¾ïåþÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Á©¬þüÿÿÿÿ
+@	java:S106&"+Replace this use of System.out by a logger.(¦þ²Ô
+E	java:S106'"+Replace this use of System.out by a logger.(¹ÊÍÙúÿÿÿÿ
+Q	java:S125("<This block of commented-out lines of code should be removed.(Ä•Ÿ
+@	java:S106."+Replace this use of System.out by a logger.(Ú‡©ó
+m
+java:S37766"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ûç‡Åþÿÿÿÿ
+E	java:S106?"+Replace this use of System.out by a logger.(öÛ©Žÿÿÿÿÿ
+E	java:S106A"+Replace this use of System.out by a logger.(ÜÚï£ùÿÿÿÿ
+E	java:S106D"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ
+@	java:S106E"+Replace this use of System.out by a logger.(â¡…É
+E	java:S106J"+Replace this use of System.out by a logger.(ùšâúÿÿÿÿ
+4
+java:S2119S"Save and re-use this "Random".(×Øµ¾
+E	java:S106Z"+Replace this use of System.out by a logger.(ÚåÉÂûÿÿÿÿ
+@	java:S106["+Replace this use of System.out by a logger.(ý€Œï
+T
+java:S1128"9Remove this unused import 'java.nio.file.LinkPermission'.(±»±Åýÿÿÿÿ

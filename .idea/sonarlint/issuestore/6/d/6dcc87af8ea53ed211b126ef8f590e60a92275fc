@@ -1,0 +1,40 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Æ´·ó
+O
+java:S5993"9Change the visibility of this constructor to "protected".(±¢úò
+E	java:S106"+Replace this use of System.out by a logger.(Öà­ûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Çï°§ûÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(Š¸·
+@	java:S106"+Replace this use of System.out by a logger.(ğŞÊ÷
+E	java:S106"+Replace this use of System.out by a logger.(¡ù¾Ìûÿÿÿÿ
+E	java:S106 "+Replace this use of System.out by a logger.(ÿı²®üÿÿÿÿ
+E	java:S106'"+Replace this use of System.out by a logger.(‘³á¼ıÿÿÿÿ
+h
+java:S3776-"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Æ¬×Í
+@	java:S1064"+Replace this use of System.out by a logger.(ğŞÊ÷
+E	java:S1068"+Replace this use of System.out by a logger.(Ê¸ÛÛıÿÿÿÿ
+E	java:S106<"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+E	java:S106="+Replace this use of System.out by a logger.(‘¾Ç¬øÿÿÿÿ
+V	java:S125F"<This block of commented-out lines of code should be removed.(àŸ£€ûÿÿÿÿ
+E	java:S106L"+Replace this use of System.out by a logger.(¦£ü¿øÿÿÿÿ
+E	java:S106M"+Replace this use of System.out by a logger.(ÒÄ¹şÿÿÿÿÿ
+E	java:S106R"+Replace this use of System.out by a logger.(Ïíõšûÿÿÿÿ
+@	java:S106S"+Replace this use of System.out by a logger.(âøû÷
+E	java:S106T"+Replace this use of System.out by a logger.(…ØÔÓûÿÿÿÿ
+E	java:S106U"+Replace this use of System.out by a logger.(Ì¡’•úÿÿÿÿ
+E	java:S106V"+Replace this use of System.out by a logger.(åÕ¤ßùÿÿÿÿ
+E	java:S106W"+Replace this use of System.out by a logger.(‰å’Íşÿÿÿÿ
+@	java:S106X"+Replace this use of System.out by a logger.(È¼¨î
+E	java:S106Y"+Replace this use of System.out by a logger.(û«˜µÿÿÿÿÿ
+E	java:S106^"+Replace this use of System.out by a logger.(ÀÏ°ıÿÿÿÿ
+@	java:S106_"+Replace this use of System.out by a logger.(˜É
+E	java:S106`"+Replace this use of System.out by a logger.(ú¨Îóşÿÿÿÿ
+E	java:S106a"+Replace this use of System.out by a logger.(ÑüÁˆüÿÿÿÿ
+@	java:S106b"+Replace this use of System.out by a logger.(“¶÷è
+@	java:S106c"+Replace this use of System.out by a logger.(ŞÜä…
+4
+java:S2119k"Save and re-use this "Random".(¡Å”¦
+\
+java:S1128"ARemove this unused import 'javax.sql.rowset.serial.SerialStruct'.(Ã–Ü¼ûÿÿÿÿ
+W
+java:S1128"ARemove this unused import 'java.security.spec.RSAOtherPrimeInfo'.(“¹ÌÉ

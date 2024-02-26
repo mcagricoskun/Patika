@@ -1,0 +1,16 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ÷­Ìÿÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÿ§Õ€øÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Øßıùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(†·§ÿÿÿÿÿ
+@	java:S106 "+Replace this use of System.out by a logger.( Êä›
+E	java:S1061"+Replace this use of System.out by a logger.(˜“«ùÿÿÿÿ
+E	java:S106>"+Replace this use of System.out by a logger.(çÀİùÿÿÿÿ
+I
+java:S1172|"4Remove this unused method parameter "defaultHealth".(Ğ¯Ë#
+N
+java:S1128"8Remove this unused import 'MidLevel.GameProject.Archer'.(ÔÎ€™
+T
+java:S1128"9Remove this unused import 'MidLevel.GameProject.Paladin'.(ƒë½ÿÿÿÿÿ
+T
+java:S1128"9Remove this unused import 'MidLevel.GameProject.Samurai'.(¨×…ëúÿÿÿÿ
