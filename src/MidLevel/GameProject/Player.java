@@ -91,8 +91,9 @@ public class Player {
 
 
     }
+    //*******************************
     public int getTotalDamage(){
-        return damage + this.getInventory().getWeapon().getDamage();
+        return damage + this.getInventory().getWeapon().getWeaponDamage();
 
     }
     public int getDamage() {

@@ -4,27 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="Game Project 2 - kafama göre">
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/Armor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/heroCavalry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/locationBattle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/locationBattleCave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/locationBattleMountain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/locationBattleSea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/locationVillage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/locationVillageHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/locationVillageStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/monsterBear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/monsterWhale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameTwo/monsterWolf.java" afterDir="false" />
+    <list default="true" id="7466a7da-e8c4-4795-ad68-03957c36cdbd" name="Changes" comment="Game Project 2 - store hariç çalışıyor gibi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/Armor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/Weapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameTwo/heroArcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/heroArcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/heroPaladin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/heroPaladin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/locationBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/locationBattle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/locationVillage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/locationVillage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/locationVillageHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/locationVillageHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/locationVillageStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/locationVillageStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/monsterBear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/monsterBear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/monsterWhale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/monsterWhale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameTwo/monsterWolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTwo/monsterWolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/BattleLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/BattleLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MidLevel/GameProject/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MidLevel/GameProject/Weapon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,26 +82,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/cagri.coskun/Desktop/Java-RESTful-Web-Service-main",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cagri.coskun/IdeaProjects/Patika&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cagri.coskun\IdeaProjects\Patika" />
@@ -110,7 +119,7 @@
       <recent name="MidLevel.Abstraction" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Kdv">
     <configuration name="Kdv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kdv" />
       <module name="Patika" />
@@ -171,7 +180,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-a618e4d4" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
       </set>
     </attachedChunks>
   </component>
@@ -183,6 +192,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701854373040</updated>
+      <workItem from="1708516107468" duration="209000" />
+      <workItem from="1708516340303" duration="1337000" />
+      <workItem from="1708519366314" duration="19000" />
+      <workItem from="1708523222718" duration="2066000" />
+      <workItem from="1708525325808" duration="4709000" />
     </task>
     <task id="LOCAL-00001" summary="kdv var">
       <option name="closed" value="true" />
@@ -552,15 +566,25 @@
       <option name="project" value="LOCAL" />
       <updated>1706538223276</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Game Project 2 - kafama göre">
+      <option name="closed" value="true" />
+      <created>1708093663546</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1708093663546</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="executable:docker" />
     <option featureType="dependencySupport" implementationName="executable:kubectl" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kdv var" />
     <MESSAGE value="hepsi" />
     <MESSAGE value="hipotenus" />
     <MESSAGE value="Taksimetre" />
@@ -585,7 +609,8 @@
     <MESSAGE value="Armors added" />
     <MESSAGE value="almost finished" />
     <MESSAGE value="Game Project 2 - kafama göre" />
-    <option name="LAST_COMMIT_MESSAGE" value="Game Project 2 - kafama göre" />
+    <MESSAGE value="Game Project 2 - store hariç çalışıyor gibi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Game Project 2 - store hariç çalışıyor gibi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -630,7 +655,25 @@
           <line>4</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GameTwo/locationBattle.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/GameTwo/Game.java</url>
+          <line>12</line>
+          <properties class="GameTwo.Game" method="start">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

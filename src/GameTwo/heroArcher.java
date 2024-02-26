@@ -10,4 +10,5 @@ public class heroArcher extends Hero {
         super(1, "Okçu", 3, 12, 30);
     }
 
+
 }

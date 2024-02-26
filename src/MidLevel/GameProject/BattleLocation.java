@@ -59,7 +59,7 @@ public abstract class BattleLocation extends Location {
                     if (this.getMonster().getMonsterHealth() > 0) {
                         System.out.println();
                         System.out.println(this.getMonster().getMonsterName() + " hit " + this.getMonster().getMonsterDamage() + " damage!");
-                        int blockedDamage = +this.getPlayer().getInventory().getArmor().getBlock() - this.getMonster().getMonsterDamage();
+                        int blockedDamage = this.getPlayer().getInventory().getArmor().getBlock() - this.getMonster().getMonsterDamage();
                         if (blockedDamage < 0) {
                             this.getPlayer().setHealth(this.getPlayer().getHealth() + blockedDamage);
                         }

@@ -18,9 +18,9 @@ public class Weapon {
         // dizi oluşturdum
         Weapon [] weaponList = new Weapon[3];
         //dizi içine elemanaları yerleştirdim
-        weaponList [0] = new Weapon(1,"kılıç",5, 0);
-        weaponList [1] = new Weapon(2,"tabanca",5, 0);
-        weaponList [2] = new Weapon(3,"tüfek",5, 0);
+        weaponList [0] = new Weapon(2,"kılıç",5, 5);
+        weaponList [1] = new Weapon(3,"tabanca",9, 10);
+        weaponList [2] = new Weapon(4,"tüfek",15, 15);
         //dizi elemanlarını dönderdim
         return weaponList;
     }
@@ -51,12 +51,12 @@ public class Weapon {
         this.weaponName = weaponName;
     }
 
-    public int getWeaponBlock() {
+    public int getWeaponDamage() {
         return weaponDamage;
     }
 
-    public void setWeaponBlock(int weaponBlock) {
-        this.weaponDamage = weaponBlock;
+    public void setWeaponDamage(int weaponDamage) {
+        this.weaponDamage = weaponDamage;
     }
 
     public int getWeaponPrice() {

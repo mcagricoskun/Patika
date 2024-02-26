@@ -5,14 +5,16 @@ public class Monster {
     private String monsterName;
     private int monsterDamage;
     private int monsterHealth;
-    private String winAward;
+    private int winAward;
+    private int defaultMonsterHealth;
 
-    public Monster(int monsterId, String monsterName, int monsterDamage, int monsterHealth, String winAward) {
+    public Monster(int monsterId, String monsterName, int monsterDamage, int monsterHealth, int winAward) {
         this.monsterId = monsterId;
         this.monsterName = monsterName;
         this.monsterDamage = monsterDamage;
         this.monsterHealth = monsterHealth;
         this.winAward = winAward;
+        this.defaultMonsterHealth = monsterHealth;
     }
 
     public int getMonsterId() {
@@ -47,11 +49,19 @@ public class Monster {
         this.monsterHealth = monsterHealth;
     }
 
-    public String getWinAward() {
+    public int getWinAward() {
         return winAward;
     }
 
-    public void setWinAward(String winAward) {
+    public void setWinAward(int winAward) {
         this.winAward = winAward;
+    }
+
+    public int getDefaultMonsterHealth() {
+        return defaultMonsterHealth;
+    }
+
+    public void setDefaultMonsterHealth(int defaultMonsterHealth) {
+        this.defaultMonsterHealth = defaultMonsterHealth;
     }
 }

@@ -16,9 +16,9 @@ public class Armor {
     //Armor nesneleri oluşturuldu
     public static Armor [] armors(){
         Armor[] armorList = new Armor[3];
-        armorList [0]= new Armor (1,"Tahta Zırh",3,5);
-        armorList [1]= new Armor (2,"Demir Zırh",7,10);
-        armorList [2]= new Armor (3,"Çelik Zırh",15,20);
+        armorList [0]= new Armor (2,"Tahta Zırh",3,5);
+        armorList [1]= new Armor (3,"Demir Zırh",7,10);
+        armorList [2]= new Armor (4,"Çelik Zırh",15,20);
         return armorList;
     }
 

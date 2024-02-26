@@ -1,6 +1,10 @@
 package GameTwo;
 
+import java.util.Scanner;
+
 public abstract class Location {
+
+    public static Scanner input = new Scanner(System.in); // Scanner can be used anywhere under location
     private Player player;
     private String locationName;
 
@@ -9,6 +13,7 @@ public abstract class Location {
         this.locationName = locationName;
     }
 
+    abstract boolean onLocation();
     public Player getPlayer() {
         return player;
     }

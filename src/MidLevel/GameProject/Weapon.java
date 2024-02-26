@@ -2,15 +2,15 @@ package MidLevel.GameProject;
 
 public class Weapon {
     String weaponName;
-    private int id;
-    private int damage;
-    private int price;
+    private int weaponId;
+    private int weaponDamage;
+    private int weaponPrice;
 
-    public Weapon(int id, String weaponName, int damage, int price) {
+    public Weapon(int weaponId, String weaponName, int weaponDamage, int weaponPrice) {
         this.weaponName = weaponName;
-        this.id = id;
-        this.damage = damage;
-        this.price = price;
+        this.weaponId = weaponId;
+        this.weaponDamage = weaponDamage;
+        this.weaponPrice = weaponPrice;
     }
 
     public static Weapon[] weapons() {
@@ -23,35 +23,35 @@ public class Weapon {
 
     public static Weapon getWeaponById(int id){
         for (Weapon w : Weapon.weapons()){
-            if(w.getId() == id){
+            if(w.getWeaponId() == id){
                 return w;
             }
         }
         return null;
     }
 
-    public int getId() {
-        return id;
+    public int getWeaponId() {
+        return weaponId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setWeaponId(int weaponId) {
+        this.weaponId = weaponId;
     }
 
-    public int getDamage() {
-        return damage;
+    public int getWeaponDamage() {
+        return weaponDamage;
     }
 
-    public void setDamage(int damage) {
-        this.damage = damage;
+    public void setWeaponDamage(int weaponDamage) {
+        this.weaponDamage = weaponDamage;
     }
 
-    public int getPrice() {
-        return price;
+    public int getWeaponPrice() {
+        return weaponPrice;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
+    public void setWeaponPrice(int weaponPrice) {
+        this.weaponPrice = weaponPrice;
     }
 
     public String getWeaponName() {

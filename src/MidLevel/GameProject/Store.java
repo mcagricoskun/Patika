@@ -38,7 +38,7 @@ public class Store extends HomeLand {
     public void printWeapon() {
         System.out.println("-----Weapons-----");
         for (Weapon w : Weapon.weapons()) {
-            System.out.println("ID: " + w.getId() + " | " + w.getWeaponName() + " ==> Price: " + w.getPrice() + " Damage: " + w.getDamage());
+            System.out.println("ID: " + w.getWeaponId() + " | " + w.getWeaponName() + " ==> Price: " + w.getWeaponPrice() + " Damage: " + w.getWeaponDamage());
         }
         System.out.println("0 - Exit from store");
     }
@@ -53,13 +53,13 @@ public class Store extends HomeLand {
         if (selectedWeaponID != 0) {
             Weapon selectedWeapon = Weapon.getWeaponById(selectedWeaponID);
             if (selectedWeapon != null) {
-                if (selectedWeapon.getPrice() > this.getPlayer().getMoney()) {
+                if (selectedWeapon.getWeaponPrice() > this.getPlayer().getMoney()) {
                     System.out.println("Not Enough MONEY!");
                     System.out.println(this.getPlayer().getMoney());
-                    System.out.println(selectedWeapon.getPrice());
+                    System.out.println(selectedWeapon.getWeaponPrice());
                 } else {
                     System.out.println("You bought: " + selectedWeapon.getWeaponName());
-                    int balance = this.getPlayer().getMoney() - selectedWeapon.getPrice();
+                    int balance = this.getPlayer().getMoney() - selectedWeapon.getWeaponPrice();
                     this.getPlayer().setMoney(balance);
                     System.out.println("Balance: " + this.getPlayer().getMoney());
                     System.out.println("You had: " + this.getPlayer().getInventory().getWeapon().getWeaponName());
